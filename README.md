@@ -1,2 +1,2 @@
-# 02-bootcamp-challenge
-week 2 du bootcamp challenge
+# 02-challenge-bootcamp
+week 2 bootcamp challenge
