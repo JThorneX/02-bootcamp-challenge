@@ -187,6 +187,7 @@ section img {
 .longcontainer img {
   display: flex;
   object-fit: cover;
+  margin-top: 10px;
   width: 100%;
   height: 100%;
 }
@@ -269,15 +270,129 @@ footer a {
 footer a:hover {
   color: var(--dark);
 }
-/* 
-@media screen and (min-width: 1440) {
-  .longcontainer img .overlaylong {
-    width: 1500px;
-  }
-} */
 
-@media screen and (max-width: 1440) {
+@media screen and (max-width: 1440px) {
+  section {
+    margin-top: 120px;
+    margin-bottom: -30px;
+  }
+  .currentproject {
+    height: 270px;
+    margin-bottom: 30px;
+  }
+  .longcontainer {
+    height: 230px;
+  }
+  .longcontainer img {
+    margin-top: 0px;
+  }
+  nav ul {
+    font-size: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .left-column {
+    width: 100%;
+  }
+  .right-column {
+    flex-direction: column;
+    width: 95%;
+  }
+  nav ul {
+    float: left;
+    width: 100%;
+  }
+  aside {
+    padding: 0px;
+  }
+  aside img {
+    color: var(--dark);
+    background: var(--dark);
+    box-shadow: 0 0 100px var(--dark);
+  }
+  aside h2 {
+    margin: 5px;
+    font-size: 24px;
+  }
+  aside p {
+    margin: 10px;
+  }
+  aside img {
+    height: 100px;
+  }
+  section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .currentproject {
+    height: 310px;
+    margin-bottom: 20px;
+  }
+  .container {
+    opacity: 1;
+  }
+  .longcontainer {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+  }
+  .overlay {
+    opacity: 1;
+    display: flex;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    background: rgba(0, 0, 0, 0);
+  }
+  .button {
+    display: flex;
+    position: absolute;
+    opacity: 1;
+    text-align: center;
+    align-self: center;
+  }
+  footer {
+    margin-left: 0px;
+  }
+  .overlay:hover .button:hover {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  footer {
+    position: relative;
+  }
+  .left-column {
+    width: 100%;
+  }
+  .right-column {
+    width: 100%;
+  }
+  aside {
+    border-left: 5px solid var(--light);
+  }
   header {
-    background-color: blue;
+    display: block;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    text-align: center;
+  }
+  nav ul {
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+  }
+  section {
+    padding: 2px;
+    margin: 2px;
+    border: hidden;
+  }
+  .container section img {
+    width: 90%;
   }
 }
