@@ -141,6 +141,7 @@ section {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   justify-content: space-evenly;
   border: 1.5px dashed var(--light);
 }
@@ -192,7 +193,6 @@ section img {
 }
 
 .container:hover .overlay {
-  margin-top: 10px;
   display: block;
   border: 2px solid var(--light);
   box-shadow: 2px 5px 5px var(--light);
@@ -275,6 +275,12 @@ footer a:hover {
   section {
     margin-top: 120px;
     margin-bottom: -30px;
+  }
+  .overlay {
+    display: flex;
+    width: 375px;
+    height: 375px;
+    background: rgba(0, 0, 0, 0);
   }
   .currentproject {
     height: 270px;
