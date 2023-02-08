@@ -187,12 +187,12 @@ section img {
 .longcontainer img {
   display: flex;
   object-fit: cover;
-  margin-top: 10px;
   width: 100%;
   height: 100%;
 }
 
 .container:hover .overlay {
+  margin-top: 10px;
   display: block;
   border: 2px solid var(--light);
   box-shadow: 2px 5px 5px var(--light);
