@@ -354,7 +354,7 @@ footer a:hover {
     align-self: center;
   }
   footer {
-    margin-left: 0px;
+    margin-left: 5px;
   }
   .overlay:hover .button:hover {
     visibility: hidden;
@@ -394,5 +394,8 @@ footer a:hover {
   }
   .container section img {
     width: 90%;
+  }
+  .subfooter {
+    margin-bottom: -32px;
   }
 }
