@@ -276,8 +276,64 @@ footer a:hover {
   }
 } */
 
-@media screen and (max-width: 1440) {
-  header {
-    background-color: blue;
+@media screen and (max-width: 1440px) {
+  section {
+    margin-top: 120px;
+    margin-bottom: -30px;
+  }
+  .currentproject {
+    height: 270px;
+    margin-bottom: 30px;
+  }
+  .longcontainer {
+    height: 230px;
+  }
+  nav ul {
+    font-size: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .right-column {
+    flex-direction: column;
+    width: 72%;
+  }
+  nav ul {
+    float: left;
+    width: 100%;
+  }
+  aside {
+    padding: 0px;
+  }
+  aside h2 {
+    margin: 5px;
+    font-size: 24px;
+  }
+  aside p {
+    margin: 10px;
+  }
+  aside img {
+    height: 100px;
+  }
+  section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .currentproject {
+    height: 310px;
+    margin-bottom: 20px;
+  }
+  .longcontainer {
+    align-items: center;
+  }
+  footer {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  footer {
+    position: relative;
   }
 }
